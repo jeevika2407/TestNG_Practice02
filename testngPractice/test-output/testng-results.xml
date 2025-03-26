@@ -2,80 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T21:20:52 IST" name="Suite" finished-at="2025-03-26T21:21:28 IST" duration-ms="35972">
+  <suite started-at="2025-03-26T21:43:50 IST" name="Suite" finished-at="2025-03-26T21:44:19 IST" duration-ms="29880">
     <groups>
     </groups>
-    <test started-at="2025-03-26T21:20:52 IST" name="Test" finished-at="2025-03-26T21:21:28 IST" duration-ms="35972">
+    <test started-at="2025-03-26T21:43:50 IST" name="Test" finished-at="2025-03-26T21:44:19 IST" duration-ms="29880">
       <class name="com.practice.DataProviderExcel">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:20:54 IST" name="beforeMethod" finished-at="2025-03-26T21:21:08 IST" duration-ms="14739" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:43:52 IST" name="beforeMethod" finished-at="2025-03-26T21:44:05 IST" duration-ms="13113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:20:54 IST" name="beforeMethod" finished-at="2025-03-26T21:21:13 IST" duration-ms="19657" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:43:52 IST" name="beforeMethod" finished-at="2025-03-26T21:44:07 IST" duration-ms="15119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:20:54 IST" name="beforeMethod" finished-at="2025-03-26T21:21:09 IST" duration-ms="15181" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:43:52 IST" name="beforeMethod" finished-at="2025-03-26T21:44:05 IST" duration-ms="13836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:20:54 IST" name="beforeMethod" finished-at="2025-03-26T21:21:12 IST" duration-ms="18203" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:43:52 IST" name="beforeMethod" finished-at="2025-03-26T21:44:11 IST" duration-ms="19963" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:20:54 IST" name="beforeMethod" finished-at="2025-03-26T21:21:13 IST" duration-ms="19473" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:43:52 IST" name="beforeMethod" finished-at="2025-03-26T21:44:10 IST" duration-ms="18024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:08 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:21:16 IST" duration-ms="7400" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Course3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[TESTER]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:09 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:21:15 IST" duration-ms="5758" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Course2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DEVELOPER]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:12 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:21:22 IST" duration-ms="9766" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Course1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[HR]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:13 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:21:22 IST" duration-ms="9107" status="PASS">
+        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:05 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:44:14 IST" duration-ms="9760" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +43,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:13 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:21:27 IST" duration-ms="13515" status="PASS">
+        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:05 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:44:17 IST" duration-ms="11903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Course1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:07 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:44:16 IST" duration-ms="9783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Course3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TESTER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:10 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:44:17 IST" duration-ms="7320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Course2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DEVELOPER]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="search(java.lang.String,java.lang.String)[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:11 IST" name="search" data-provider="excelData" finished-at="2025-03-26T21:44:18 IST" duration-ms="6980" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -107,23 +107,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:15 IST" name="afterMethod" finished-at="2025-03-26T21:21:20 IST" duration-ms="5347" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:14 IST" name="afterMethod" finished-at="2025-03-26T21:44:19 IST" duration-ms="5007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:16 IST" name="afterMethod" finished-at="2025-03-26T21:21:28 IST" duration-ms="11940" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:16 IST" name="afterMethod" finished-at="2025-03-26T21:44:19 IST" duration-ms="2229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:22 IST" name="afterMethod" finished-at="2025-03-26T21:21:26 IST" duration-ms="4678" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:17 IST" name="afterMethod" finished-at="2025-03-26T21:44:19 IST" duration-ms="2563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:22 IST" name="afterMethod" finished-at="2025-03-26T21:21:27 IST" duration-ms="4665" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:17 IST" name="afterMethod" finished-at="2025-03-26T21:44:19 IST" duration-ms="1833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:21:27 IST" name="afterMethod" finished-at="2025-03-26T21:21:28 IST" duration-ms="842" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.practice.DataProviderExcel@1c1bbc4e]" started-at="2025-03-26T21:44:18 IST" name="afterMethod" finished-at="2025-03-26T21:44:19 IST" duration-ms="906" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
