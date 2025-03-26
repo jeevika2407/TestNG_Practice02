@@ -12,7 +12,6 @@ import org.testng.annotations.*;
 import java.time.Duration;
 
 public class DataProvider1{
-
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
     @BeforeMethod
