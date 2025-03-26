@@ -49,7 +49,7 @@ public class DataProviderExcel{
         driver.set(localDriver);
         wait.set(new WebDriverWait(localDriver, Duration.ofSeconds(20)));
     }
-
+    
     @AfterMethod
     public void afterMethod() {
         if (driver.get() != null) {

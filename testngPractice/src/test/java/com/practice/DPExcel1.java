@@ -39,5 +39,49 @@ public class DPExcel1 {
 		  System.out.println(e.getMessage());
 	  }
 	  return data;
-  }
+
+/*
+public Object[][] getData(String file, String sheet) throws IOException {
+    Object[][] data = null;
+
+    try (FileInputStream fis = new FileInputStream(file);
+         XSSFWorkbook wrkBk = new XSSFWorkbook(fis)) {
+
+        XSSFSheet sht = wrkBk.getSheet(sheet);
+        int rowCount = sht.getPhysicalNumberOfRows();
+        int colCount = sht.getRow(0).getLastCellNum();
+
+        data = new Object[rowCount][colCount];
+
+        for (int i = 0; i < rowCount; i++) {
+            XSSFRow row = sht.getRow(i);
+            for (int j = 0; j < colCount; j++) {
+                XSSFCell cell = row.getCell(j);
+
+                switch (cell.getCellType()) {
+                    case NUMERIC:
+                        data[i][j] = (int) cell.getNumericCellValue(); // Convert to int
+                        break;
+                    case STRING:
+                        data[i][j] = cell.getStringCellValue();
+                        break;
+                    case BOOLEAN:
+                        data[i][j] = cell.getBooleanCellValue();
+                        break;
+                    case FORMULA:
+                        data[i][j] = cell.getCellFormula();
+                        break;
+                    default:
+                        data[i][j] = ""; // Handle empty cells
+                        break;
+                }
+            }
+        }
+    } catch (Exception e) {
+        System.out.println("Error reading Excel: " + e.getMessage());
+    }
+
+    return data;
+    */
+}
 }

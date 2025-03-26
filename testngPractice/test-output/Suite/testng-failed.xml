@@ -5,9 +5,9 @@
     <classes>
       <class name="com.practice.DataProviderExcel">
         <methods>
-          <include name="setUp"/>
-          <include name="searchTest"/>
-          <include name="tearDown"/>
+          <include name="search"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.practice.DataProviderExcel -->
     </classes>
